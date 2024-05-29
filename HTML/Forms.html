@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input tags</title>
+</head>
+<body>
+    <h2>This is Form tutorial</h2>
+    <form action="backend.php">
+        <!-- div tag:is used for division .It is a block element -->
+        <!-- input tag is inline element  -->
+        <label for="name">Name</label>
+      <div>
+        <input type="text" name="myName" id="name">
+      </div>
+      <br>
+      <label for="role">Role</label>
+      <div>
+        <input type="text" name="myRole" id="role">
+      </div>
+      <br>
+      <div>
+        Email: <input type="name" name="myEmail">
+      </div>
+      <br>
+
+      <!-- date -->
+     <div>
+        Date:<input type="date" name="myDate" >
+     </div>
+     <br>
+      <!-- Number -->
+      <div>
+        Bonus: <input type="number" name="myBonus">
+      </div>
+      <br>
+
+      <div>
+        Are you eligible : <input type="checkbox" name="myEligibility">
+      </div>
+      <br>
+
+      <!-- radioButton -->
+      <div>
+        Gender : Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender" > Other <input type="radio" name="myGender">
+      </div>
+      <br>
+      <!-- textarea  -->
+      <div>
+        Write about yourself: <br>
+        <textarea name="myText" cols="30" rows="10"></textarea>
+      </div>
+
+      <!-- select tag -->
+      <!-- for value will be same for id  -->
+      <div>
+        <label for="car">Car</label>
+        <select name="myCar" id="car">
+            <option value="ind">Indica</option>
+            <option value="sw">Swift</option>
+        </select>
+      </div>
+      <!-- submit -->
+      <div>
+        <input type="submit" value="Submit Now">
+        <input type="reset" value="Reset Now">
+      </div>
+      <br>
+    </form>
+</body>
+</html>
